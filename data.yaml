@@ -1,0 +1,15 @@
+# SAM3 Probe Detection Dataset
+# Split from output folder into train/valid/test
+
+# data.yaml
+
+train: data/train/images
+val:   data/val/images
+test:  data/test/images
+
+# Number of classes
+nc: 1
+
+# Class names (index 0)
+names:
+  - probe
