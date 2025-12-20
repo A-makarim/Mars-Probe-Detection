@@ -8,6 +8,8 @@ I used this project for ERC Mars Probes. This project work for any **non-COCO ob
 
 ## Motivation
 
+I had to run YOLOV8n on NVIDIA Jetson to find a good balance between accuracy and computaiton time. Using SAM3 is not optimal on such devices due to number of params. YOLO itself didn't had the intelligence to detect a prompt Object. It is not a ViT like SAM3. 
+
 ERC Mars Probes are not part of standard datasets such as COCO.  
 Manually annotating thousands of frames is slow, error-prone, and expensive.
 
