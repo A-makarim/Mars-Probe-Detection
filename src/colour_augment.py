@@ -80,3 +80,11 @@ def colour_augment(img: np.ndarray, hue_strength: float = 1.0, sat_range=(0.7, 1
     out = cv2.cvtColor(hsv, cv2.COLOR_HSV2BGR)
 
     return out
+
+
+def main():
+    pass
+
+
+if __name__ == "__main__":
+    main()
