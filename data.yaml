@@ -3,9 +3,9 @@
 
 # data.yaml
 
-train: data/train/images
-val:   data/val/images
-test:  data/test/images
+train: data/augmented/train/images
+val:   data/augmented/val/images
+test:  data/augmented/test/images
 
 # Number of classes
 nc: 1
